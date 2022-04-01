@@ -1,0 +1,32 @@
+.registerBg{
+    background-color: #110606;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: linear-gradient(#110606f9, #110606),url("../../images/note.jpeg");
+    background-size:cover;
+
+    overflow-y: scroll;
+}
+
+.registerForm{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 80%;
+    padding: 10px;
+}
+.registerForm > .buttonsContainer{
+    height: 10em;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+

@@ -1,0 +1,136 @@
+.nav{
+    background-color: #1D1212;
+    width: 100vw;
+    z-index: 99999;
+    margin: 0;
+    box-shadow: 0px 10px 20px #0000009d;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav>h2{
+    color: #6EC8A5;
+    margin: 5px;
+    cursor: pointer;
+}
+.nav>.icon{
+    margin: 5px;
+    cursor: pointer;
+}
+.HomeBg{
+    background-color: #110606;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.HomeBg>.popup{
+    position: absolute;
+    width: 15em;
+    height: 15em;
+    top: 10;
+    right: 0;
+    margin-top: 5em;
+    margin-right: 1em;
+    background-color: #281E1E;
+    padding: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px #0000009d;
+    text-align: center;
+    visibility: collapse;
+    z-index: 9999;
+}
+
+.HomeBg>.mainBody{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.HomeBg>.mainBody>.sideBar{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    background-color: #1D1212;
+    color: white;
+    z-index: 99;
+    
+}
+.HomeBg>.mainBody>.sideBar>.content{
+width: 10em;
+height: 100%;
+transition: 0.2s;
+box-shadow: 10px 10px 40px #0000009d;
+}
+.HomeBg>.mainBody>.sideBar>.hideBg{
+width: 10px;
+height: 100%;
+background-color: #1A1010;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.HomeBg>.mainBody>.sideBar>.hideBg>.hideBttn{
+width: 100%;
+height: 20%;
+background-color: #281E1E;
+cursor: pointer;
+}
+.HomeBg>.mainBody>.main{
+    width: 100%;
+    height: 100%;
+    background-color: #110606;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 10px
+}
+
+
+
+
+.HomeBg>.mainBody>.main>.titleContainer{
+    width: 100%;
+    border-bottom: solid 2px #1D1212;
+    margin-top: 10px;
+}
+.HomeBg>.mainBody>.main>.titleContainer>.title{
+    width: 100%;
+    background: transparent;
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+.HomeBg>.mainBody>.main>.titleContainer>.title:focus{
+   outline: none;
+}
+.HomeBg>.mainBody>.main>.noteContainer{
+    width: 100%;
+    height: 100vh;
+    margin-top: 10px;
+}
+.HomeBg>.mainBody>.main>.noteContainer>.note{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    color: #757575;
+    border: none;
+    font-family: "Poppins";
+    font-size: medium;
+    resize: none;
+}
+.HomeBg>.mainBody>.main>.noteContainer>.note:focus{
+    outline: none;
+}

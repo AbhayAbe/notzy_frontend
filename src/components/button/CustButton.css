@@ -1,0 +1,38 @@
+.custButton{
+    cursor: pointer;
+
+    margin: 0.5em;
+}
+.custButton:hover{
+    box-shadow: 10px 10px 10px #000000;
+}
+.primaryBttnBg{
+    padding: 10px;
+    color: white;
+    font-weight: bolder;
+    background-color:  #74D3AE;
+    border: solid 2px #74D3AE;
+    border-radius: 5px;
+    text-align: center;
+    transition: 0.2s;
+}
+.primaryBttnBg:hover{
+    color: #74D3AE;
+    background-color:  white;
+    border: solid 2px white;
+    transition: 0.2s;
+    
+}
+.secondaryBttnBg{
+    padding: 10px;
+    color: #74D3AE;
+    font-weight: bolder;
+    border: solid 2px #74D3AE;
+    border-radius: 5px;
+    text-align: center;
+}
+.secondaryBttnBg:hover{
+    color: white;
+    border-color:  white;
+    transition: 0.2s;
+}
