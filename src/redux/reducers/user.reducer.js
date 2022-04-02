@@ -1,13 +1,12 @@
 import { SET_USER } from "../constants"
 
 const UserState = {
-    _id : "",
     firstName : "",
     lastName : "",
     email : ""
 }
 
-const UserReducer = (state = UserState, action) => {
+const User = (state = UserState, action) => {
     switch(action.type){
       case SET_USER:
        return action.user
@@ -15,4 +14,4 @@ const UserReducer = (state = UserState, action) => {
          return state
     }
   }
-export default UserReducer
+export default User
