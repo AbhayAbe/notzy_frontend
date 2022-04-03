@@ -1,5 +1,3 @@
-import { hover } from '@testing-library/user-event/dist/hover';
-import { useEffect, useState } from 'react';
 import { Folder } from 'react-ionicons';
 import './NoteTile.css';
 const NoteTile = ({ noteData, isActive, onClick, index }) => {

@@ -82,6 +82,7 @@ const Home = () => {
     };
     // call the function
     authenticateUser();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   useEffect(() => {
@@ -89,6 +90,7 @@ const Home = () => {
     console.log('Notes: ', notes);
     const timeoutId = setTimeout(() => SaveNoteData(noteData.data), 2000);
     return () => clearTimeout(timeoutId);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [noteData.data]);
 
   useEffect(() => {
@@ -99,7 +101,7 @@ const Home = () => {
   const logout = async () => {
     try {
       setIsLoading(true);
-      let res = await LogoutUser();
+      await LogoutUser();
       dispatch(
         SetUser({
           firstName: '',
