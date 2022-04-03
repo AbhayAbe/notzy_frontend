@@ -36,3 +36,21 @@
     border-color:  white;
     transition: 0.2s;
 }
+.primaryBttnDisabledBg{
+    padding: 10px;
+    color: white;
+    font-weight: bolder;
+    background-color:  #828282;
+    border: solid 2px #828282;
+    border-radius: 5px;
+    text-align: center;
+    transition: 0.2s;
+}
+.secondaryBttnDisabledBg{
+    padding: 10px;
+    color: #828282;
+    font-weight: bolder;
+    border: solid 2px #828282;
+    border-radius: 5px;
+    text-align: center;
+}

@@ -8,12 +8,14 @@ export class Note{
             this.updatedAt = {}
     }
     createNote = ({id, title, email, data, createdAt, updatedAt}) => {
+        console.log("Note data:N: ",id, title, email, data, createdAt, updatedAt)
             this._id = id
             this.title = title
             this.email = email
             this.data = data
             this.createdAt = createdAt
             this.updatedAt = updatedAt
+            return this
     }
     toJson = () => {
         return {

@@ -1,0 +1,17 @@
+.noteTileBg{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.noteTileBg:hover{
+    background-color: #201616;
+}
+.noteTileBg>.text{
+    font-size: larger;
+}
+.noteTileBg > div{
+    padding: 5px;
+}

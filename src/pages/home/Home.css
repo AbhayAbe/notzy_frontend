@@ -66,6 +66,7 @@ width: 10em;
 height: 100%;
 transition: 0.2s;
 box-shadow: 10px 10px 40px #0000009d;
+overflow-y: scroll;
 }
 .HomeBg>.mainBody>.sideBar>.hideBg{
 width: 10px;
